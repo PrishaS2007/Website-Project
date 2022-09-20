@@ -1,1 +1,32 @@
 /* CSS Style Sheet */
+
+html {
+    background: url(img/silas-baisch-K785Da4A_JA-unsplash.jpg) no-repeat center fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+div {
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgba(86, 150, 175, 0.63);
+  width: 600px;
+  height: 800px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: auto;
+  padding: 50px;
+}
+
+a {
+    color: rgb(45, 151, 221);
+}
