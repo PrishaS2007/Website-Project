@@ -23,7 +23,7 @@ div {
 body {
   background-color: rgba(86, 150, 175, 0.63);
   width: 600px;
-  height: 950px;
+  height: auto;
   border: 5px solid rgb(255, 255, 255);
   margin: auto;
   padding: 50px;
@@ -49,5 +49,21 @@ button:hover {
 }
 
 .quiz b {
+}
 
+.whale {
+  width: 450px;
+}
+
+.image {
+  width: 500px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.link {
+  color: rgb(rgb(53, 84, 141), green, blue);
 }
