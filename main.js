@@ -49,7 +49,11 @@ score++;
 ans5.innerHTML = "Incorrect!";
 }
 // Process
-document.getElementById("answerEl").innerHTML = anserEk
+let total = (score) / 5 * 100
+
+// Output
+document.getElementById("answerEl").innerHTML = total.toFixed()
 }
+
 
 
