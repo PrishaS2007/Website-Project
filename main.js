@@ -51,6 +51,9 @@ ans5.innerHTML = "Incorrect!";
 // Process
 let total = (score) / 5 * 100
 
+
+// Encouragement Msg
+
 // Output
 document.getElementById("answerEl").innerHTML = total.toFixed()
 }
