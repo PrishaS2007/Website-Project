@@ -1,5 +1,6 @@
 // HTML Variables 
 let score = 0;
+let msg = document.getElementById("msg");
 
 // Button Event Listener
 document.getElementById("btn").addEventListener("click", btnClicked);
@@ -49,13 +50,25 @@ score++;
 ans5.innerHTML = "Incorrect!";
 }
 // Process
-let total = (score) / 5 * 100
+let total = (score) / 5 * 100;
 
+// Score
+document.getElementById("s").innerHTML = score;
 
-// Encouragement Msg
+// Encouragement Message
+if (score == 5) {
+msg.innerHTML = "Amazing Job!";
+} else if (score == 4) {
+msg.innerHTML = "So close!";
+} else if (score == 3) {
+msg.innerHTML = "Not bad!";
+} else if (score <= 2) {
+msg.innerHTMl = "Try Again.";
+}
+
 
 // Output
-document.getElementById("answerEl").innerHTML = total.toFixed()
+document.getElementById("answerEl").innerHTML = total.toFixed();
 }
 
 
