@@ -49,27 +49,32 @@ score++;
 } else {
 ans5.innerHTML = "Incorrect!";
 }
+
 // Process
 let total = (score) / 5 * 100;
+
+
+// Encouragement Message
+if (score <= 1) {
+msg.innerHTML = "Try Again.";
+} else if (score == 2 ) {
+msg.innerHTML = "You can do better than that!";
+} else if (score == 3) {
+msg.innerHTML = "Not bad!";
+} else if (score == 4) {
+msg.innerHTMl = "So close!";
+} else if (score == 5) {
+msg.innerHTML = "Your a Whale Shark expert!"
+}
 
 // Score
 document.getElementById("s").innerHTML = score;
 
-// Encouragement Message
-if (score == 5) {
-msg.innerHTML = "Amazing Job!";
-} else if (score == 4) {
-msg.innerHTML = "So close!";
-} else if (score == 3) {
-msg.innerHTML = "Not bad!";
-} else if (score <= 2) {
-msg.innerHTMl = "Try Again.";
-}
-
-
 // Output
 document.getElementById("answerEl").innerHTML = total.toFixed();
 }
+
+
 
 
 
